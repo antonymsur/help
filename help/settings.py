@@ -124,7 +124,7 @@ APP_SECRET = 'de04368295628fd0620ab8bf67e304ee'
 
 LOGIN_URL = 'http://sample-oidcp.herokuapp.com/openid/authorize?response_type=code'
 
-APP_URL = 'http%3A%2F%2Fsamp-help.herokuapp.com%3A8081%2Fhello2' #where it needs to get redirected after succesful login/authN&Z
+APP_URL = 'http%3A%2F%2Fsamp-help.herokuapp.com%3A8081%2Fhelp' #where it needs to get redirected after succesful login/authN&Z
 
 OID_TOKEN_URL = 'http://sample-oidcp.herokuapp.com/openid/token'
 
