@@ -127,3 +127,4 @@ celerybeat-schedule
 
 # Spyder project settings
 .spyderproject
+nbproject/
