@@ -17,6 +17,6 @@ from django.conf.urls import url
 from helpservice.views import *
 
 urlpatterns = [
-	url(r'',helpservice),
-    url(r'^helpservice/',helpservice),
+    url(r'', helpservice),
+    url(r'^helpservice/', helpservice),
 ]
