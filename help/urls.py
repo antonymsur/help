@@ -18,5 +18,5 @@ from helpservice.views import *
 
 urlpatterns = [
     url(r'', helpservice),
-    url(r'^helpservice/', helpservice),
+    url(r'^help/', helpservice),
 ]
