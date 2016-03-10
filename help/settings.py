@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ye=x%0)eb^-tae&=@7!qaymr!z14^)^jz7m_xv7(uzg0w=7ee_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -118,9 +118,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATIC_URL = '/static/'
 
 
-APP_ID = '999180'  #Client Identifier
+APP_ID = '454206'  #Client Identifier
 
-APP_SECRET = 'de04368295628fd0620ab8bf67e304ee'
+APP_SECRET = 'bfa11ff1e3b47fa018f85c8e2d7ac11b'
 
 LOGIN_URL = 'http://sample-oidcp.herokuapp.com/openid/authorize?response_type=code'
 
@@ -137,7 +137,7 @@ AUTH_PROTO = 'OIDC' #OR 'CAS' with LOGIN_URL  = "http://login.example.com:8080/l
 import logging
 
 logging.basicConfig(
-    level = logging.DEBUG,
-    format = " %(levelname)s %(name)s: %(message)s",
-)
+                    level=logging.DEBUG,
+                    format=" %(levelname)s %(name)s: %(message)s",
+                    )
 
