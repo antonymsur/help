@@ -18,7 +18,7 @@ def helpservice(request):
         nonce = 'nonce=' + nonceValue       #associate Client session with an ID Token , this used to mitigate replay attack
         loginurl = oidpUrl + '&' + appId + '&' + redirectUrl + '&' + scope + '&' + state + '&' + nonce
     else:
-	loginurl = settings.LOGIN_URL
+        loginurl = settings.LOGIN_URL
     try:
         code = request.GET.get(authType)
         state = request.GET.get('state')
